@@ -1,13 +1,13 @@
-let INDICE = 13;
-let SOMA = 0;
-let K = 0;
+int main() {
+  int INDICE = 13;
+  int SOMA = 0;
+  int K = 0;
 
-while (K < INDICE) {
+  while (K < INDICE) {
+        K = K + 1;
+        SOMA = SOMA + K;
+    }
+printf("O valor da variavel SOMA é de: %d",SOMA);
 
-  K = 1; 
-  SOMA = SOMA + K;
+    return 0;
 }
-
-console.log(SOMA);
-
-alert("O valor da váriavel SOMA é de: " + SOMA);
